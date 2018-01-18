@@ -215,7 +215,7 @@ open class SideMenuController: UIViewController, UIGestureRecognizerDelegate {
     
     // MARK: - Configurations -
     
-    func repositionViews() {
+    public func repositionViews() {
         
         if sidePanelVisible {
             toggle()
